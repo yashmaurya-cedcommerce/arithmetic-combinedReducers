@@ -2,37 +2,80 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.homeContainer
+{
+  width: 60%;
+  margin: auto;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  padding: 2% 0%;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border-radius: 5px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#operationSelect
+{
+  width: 50%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+.upperFlex
+{
+  width: 50%;
+  margin: auto;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-between;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.upperFlex input
+{
+  width: 10%;
+  font-size: 1.5vw;
+  text-align: center;
+  height: 2vw;
+}
+
+.btnDiv
+{
+  width: 50%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.calculateBtn
+{
+  font-size: 1.5vw;
+  border: none;
+  background-color: rgb(40, 169, 244);
   color: white;
+  padding: 2% 0%;
+  width: 45%;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 
-.App-link {
-  color: #61dafb;
+.calculateBtn:hover
+{
+  background-color: rgb(18, 130, 195);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.clearBtn {
+  font-size: 1.5vw;
+  border: none;
+  background-color: rgb(40, 169, 244);
+  color: white;
+  padding: 2% 0%;
+  width: 45%;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.clearBtn:hover
+{
+  background-color: rgb(18, 130, 195);
 }
